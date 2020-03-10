@@ -1,6 +1,57 @@
-<?php
-echo "Hello world";
+<?php echo "Hello world";?>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="follow">
 
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/css/uikit.min.css" />
 
-?>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+  	<div class="uk-section uk-container">
+  		<div class=".uk-grid.uk-child-width-1-3@s.uk-child-width-1-1" uk-grid="">
+  			<form class="uk-form-horizontal uk-margin-large js-login">
+			    <div class="uk-margin">
+			        <label class="uk-form-label" for="form-horizontal-text" required='required'>Email</label>
+			        <div class="uk-form-controls">
+			            <input class="uk-input" id="form-horizontal-text" type="Email" placeholder="email@email.com" required='required'>
+			        </div>
+			    </div>
+
+			    <div class="uk-margin">
+			        <label class="uk-form-label" for="form-horizontal-text" required='required'>Password</label>
+			        <div class="uk-form-controls">
+			            <input class="uk-input" id="form-horizontal-text" type="Password" placeholder="type password" required='required'>
+			        </div>
+			    </div>
+
+			    <div class="uk-margin"> 
+				    <div class="uk-form-controls">
+				    	<button class="uk-button uk-button-default" type="submit">
+				    		Login
+				    	</button>
+				    </div>
+				</div>
+			</form>
+  		</div>
+  	</div>
+
+    
+    
+    <!-- jQuery first -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    
+    <!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit-icons.min.js"></script>
+  </body>
+</html>
